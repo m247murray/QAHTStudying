@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  /* Style the header block */
+  #header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the navigation block */
+  #navigation {
+    width: 150px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    float: left;
+  }
+  
+  #navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navigation li {
+    padding: 5px;
+  }
+  
+  #navigation a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main content block */
+  #main {
+    margin-left: 170px;
+    padding: 20px;
+  }
+  
+  /* Style the sidebar block */
+  #sidebar {
+    width: 170px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    float: left;
+  }
+  
+  #sidebar h3 {
+    margin-top: 0;
+  }
+  
+  #sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sidebar li {
+    padding: 5px;
+  }
+  
+  #sidebar a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the footer block */
+  #footer {
+    background-color: #6c757d;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+  }
+  #color{
+    background-color: #6c757d;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+  }
+  
+  /* Set up styles for blocks */
+  .block {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+  }
+  
+  /* Set up styles for moveable blocks */
+  .moveBlock {
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border: 1px solid black;
+    cursor: grab;
+  }
+  .container {
+    background-color: #000;
+    color: #ffffff;
+  }
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .timer-display {
+    font-size: 5rem;
+  }
+  
+  .timer-controls {
+    margin-top: 20px;
+    
+  }
+  
+  button {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
